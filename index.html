@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./tailwind.init.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Responsive Flower</title>
 </head >
 <body >
-<header class="max-w-7xl mx-auto p-5">
+<header class="max-w-7xl mx-auto p-5 md:p-0">
 
     <!-- NavBar section -->
   <nav class="flex items-center justify-between">
@@ -35,11 +37,11 @@
     </div>
   </nav>
 
-  <!-- Bannner Section -->
-<section class="mt-10 md:mt-30 flex flex-col-reverse md:flex-row items-center justify-between gap-8 px-4 md:px-12">
-  <div class="space-y-4 max-w-xl md:text-center md:text-left">
-    <h1 class="text-orange-500 text-4xl md:text-6xl font-bold"><span class="text-gray-950">Always</span> Fresh Flowers</h1>
-    <p class="text-gray-700 text-base md:text-lg">
+  <!-- Banner Section -->
+<section class="mt-10 md:mt-30 flex flex-col-reverse md:flex-row items-center justify-between gap-8">
+  <div class="space-y-4 max-w-xl">
+    <h1 class="font-noto text-[#E95A08] text-4xl md:text-6xl font-bold "><span class="text-gray-950">Always</span> Fresh Flowers</h1>
+    <p class="text-gray-700 text-base md:text-lg font-inter">
       Indulge your senses with the beauty and fragrance of our fresh flower shop.
       From classic roses to exotic blooms, we offer a wide variety of fresh flowers
       that are perfect for any occasion.
@@ -49,9 +51,88 @@
     <img src="./assets/hero-flower.png" alt="Hero Flower" class="w-full h-auto">
   </div>
 </section>
-
-
 </header>
+
+
+<main class="max-w-7xl mx-auto p-5 my-10 md:my-20 ">
+  <section>
+    <div class="text-center space-y-4">
+    <h3 class="font-noto font-bold text-5xl"><span class="text-[#E95A08]">Our</span> Plants</h3>
+    <p class=" font-inter text-gray-600 md:mx-auto max-w-xl">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+    </div>
+    <!-- Card -->
+    <div class="grid grid-cols-2 md:grid-cols-4 justify-items-center gap-6 mt-10">
+      <!-- !st card -->
+      <div class="  text-center ">
+        <img src="./assets/sample-flower-image.png" alt="">
+        <div class="mt-6 flex flex-col">
+          <h3 class="font-inter font-semibold">Lily Blossom</h3>
+          <p class="font-inter font-bold">20 USD</p>
+          <button class="bg-[#E95A08]  py-[15px]  px-[30.5px] font-inter font-semibold text-blue-50 mt-6">ADD TO CART</button>
+        </div>
+        </div>
+      <div class="  text-center ">
+        <img src="./assets/sample-flower-image.png" alt="">
+        <div class="mt-6 flex flex-col">
+          <h3 class="font-inter font-semibold">Lily Blossom</h3>
+          <p class="font-inter font-bold">20 USD</p>
+          <button class="bg-[#E95A08]  py-[15px]  px-[30.5px] font-inter font-semibold text-blue-50 mt-6">ADD TO CART</button>
+        </div>
+        </div>
+      <div class="  text-center ">
+        <img src="./assets/sample-flower-image.png" alt="">
+        <div class="mt-6 flex flex-col">
+          <h3 class="font-inter font-semibold">Lily Blossom</h3>
+          <p class="font-inter font-bold">20 USD</p>
+          <button class="bg-[#E95A08]  py-[15px]  px-[30.5px] font-inter font-semibold text-blue-50 mt-6">ADD TO CART</button>
+        </div>
+        </div>
+      <div class="  text-center ">
+        <img src="./assets/sample-flower-image.png" alt="">
+        <div class="mt-6 flex flex-col">
+          <h3 class="font-inter font-semibold">Lily Blossom</h3>
+          <p class="font-inter font-bold">20 USD</p>
+          <button class="bg-[#E95A08]  py-[15px]  px-[30.5px] font-inter font-semibold text-blue-50 mt-6">ADD TO CART</button>
+        </div>
+        </div>
+      <div class="  text-center ">
+        <img src="./assets/sample-flower-image.png" alt="">
+        <div class="mt-6 flex flex-col">
+          <h3 class="font-inter font-semibold">Lily Blossom</h3>
+          <p class="font-inter font-bold">20 USD</p>
+          <button class="bg-[#E95A08]  py-[15px]  px-[30.5px] font-inter font-semibold text-blue-50 mt-6">ADD TO CART</button>
+        </div>
+        </div>
+      <div class="  text-center ">
+        <img src="./assets/sample-flower-image.png" alt="">
+        <div class="mt-6 flex flex-col">
+          <h3 class="font-inter font-semibold">Lily Blossom</h3>
+          <p class="font-inter font-bold">20 USD</p>
+          <button class="bg-[#E95A08]  py-[15px]  px-[30.5px] font-inter font-semibold text-blue-50 mt-6">ADD TO CART</button>
+        </div>
+        </div>
+      <div class=" text-center hidden md:block ">
+        <img src="./assets/sample-flower-image.png" alt="">
+        <div class="mt-6 flex flex-col">
+          <h3 class="font-inter font-semibold">Lily Blossom</h3>
+          <p class="font-inter font-bold">20 USD</p>
+          <button class="bg-[#E95A08]  py-[15px]  px-[30.5px] font-inter font-semibold text-blue-50 mt-6">ADD TO CART</button>
+        </div>
+        </div>
+      <div class=" text-center hidden md:block ">
+        <img src="./assets/sample-flower-image.png" alt="">
+        <div class="mt-6 flex flex-col">
+          <h3 class="font-inter font-semibold">Lily Blossom</h3>
+          <p class="font-inter font-bold">20 USD</p>
+          <button class="bg-[#E95A08]  py-[15px]  px-[30.5px] font-inter font-semibold text-blue-50 mt-6">ADD TO CART</button>
+        </div>
+        </div>
+        
+      
+      </div>
+    
+  </section>
+</main>
 
 
     
